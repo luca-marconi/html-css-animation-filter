@@ -126,7 +126,7 @@
     height: 20px;
 }
 .ex-12-button:hover .ex-12-top-white {
-    animation: movetop 2s linear;
+    animation: movetop 1.5s linear;
 }
 @keyframes movetop {
     0% {left: 10%;}
@@ -134,12 +134,12 @@
     100% {left:10%;}
 }
 .ex-12-button:hover .ex-12-bottom-white {
-    animation: movebottom 2s linear;
+    animation: movebottom 1.5s linear;
 }
 @keyframes movebottom {
-    0% {right: 10%;}
-    50% {right:60%;}
-    100% {right:10%;}
+    0% {right: 5%;}
+    50% {right:50%;}
+    100% {right:20%;}
 }
 
 .ex-12-bottom-white, .ex-13-bottom-white {
